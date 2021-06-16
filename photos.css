@@ -1,0 +1,12 @@
+.box{
+    float: left;
+    padding: 30px;
+    width: 33.33%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

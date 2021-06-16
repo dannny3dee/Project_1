@@ -1,0 +1,140 @@
+/*main classs*/
+.muj{
+    background-color: black;
+    color: cornsilk;
+    border: 5px cornsilk;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-style: inset;
+    
+}
+div:hover{
+    background-color: rgb(41, 5, 5);
+}
+
+.muj1{
+    background-color: black;
+    color: cornsilk;
+    border: 5px cornsilk;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-style: inset;
+    float:none;
+}
+
+
+
+.box{
+    float: left;
+    padding: 30px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+
+}
+li.box{
+    float: none;
+}
+
+/*list styling for navigation bar*/
+li{
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li a {
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+
+
+
+
+/*unvisited link*/
+a:link{
+    color: blueviolet;
+    background-color: none;
+    text-decoration:none ;
+}
+/*visited link*/
+a:visited{
+    color: rgb(255, 166, 0);
+    background-color: transparent;
+    text-decoration:none ;
+}
+/*mouse over link*/
+a:hover{
+    color: rgb(43, 55, 226);
+    background-color: transparent;
+    text-decoration:none ;
+}
+/*selected link*/
+a:active{
+    color: rgb(119, 11, 11);
+    background-color: transparent;
+    text-decoration:none ;
+}
+/*main heading size*/
+h1{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font:"arial narrow bold"
+}
+/*table styling*/
+table,th,td
+     {
+         border: 5px solid  rgb(255, 166, 0);
+         border-collapse: collapse;
+         border-style: inset;
+         color: cornsilk;
+         background-color: black;
+         text-align: center;
+         padding: 10px;
+
+     }
+th{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+td:hover{
+    background-color: rgb(66, 63, 68);
+}
+/* using a web page inside a web page*/
+iframe{
+    width: 75%;
+    height: 1000;
+    border-style: inset;
+    border-color: black;
+    margin-top: 1px;
+    margin-left: 50px ;
+    margin-right: auto;
+    
+}
+/*styling button*/
+button{
+    background-color: black;
+    color: cornsilk;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: "arial narrow bold";
+    margin-left: 130px;
+}
+/* styling form */
+form{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: "arial narrow bold";
+
+}
